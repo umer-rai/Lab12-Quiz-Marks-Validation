@@ -15,7 +15,7 @@ public partial class DefaultPage : System.Web.UI.Page
         // STARTER VERSION: this upper-bound condition is intentionally incorrect.
         // Lab 12 review task: ask Copilot to review the inclusive 0-to-10 requirement.
         // After reviewing and recording the baseline, change marks < 10 to marks <= 10.
-        if (marks >= 0 && marks < 10)
+        if (marks >= 0 && marks <=10)
         {
             lblResult.Text = "Accepted: " + marks;
         }
